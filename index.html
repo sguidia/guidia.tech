@@ -160,13 +160,20 @@
                              </div>
                              <div class="timeline-info">
                                   <h3><span>Website Prortfolio</span></h3>
-                                  <p>изначально я хотел купить простенький хостинг разметсить там свое резюме и собственно все, чтоб можно было максимально быстро себя презентовать, но подумав еще раз я понял что из этого может получится настоящий проект, я буду максимально подробно использовать соверменные технологии и практики для своего сайта, многие функции будут избыточны, но все это я буду делать с цель получения реальных практических знаний, итак начнем:
-                                    1. создал s3 bucket, сделал его общедоустпным, настроил Bucket policy, закачал свой вэб-сайт вручную
-                                    2. купил домен guidia.tech на сторонем сервисе (не AWS)
-                                    3. добавил новую hosted zone в AWS Route53, получил ns сервера и прописал их у своего ДНС провайдера
-                                    4. добавить SSL сертификат к своему домену, для этого получил его в AWS Certificate Manager, к сожалению, а точнее к счастью, напрямую привязать сертификат нельзя, поэтому пришлось настраивать через CloudFront, для этого сделал новое distribution, выбрал соответствующий s3 bucket, указал имена cname  для основного домена, выбрал редирект с http на https, выбрал сам сертификат.
-                                    5. решил добавить немнго CI/CD в мой проект, для этого использовал связку Git - AWS CodePipeline - AWS S3 Bucket. Теперь при заливки в гит новой версии код деплоится на S3 бакет автоматически.</p>
-                             </div>
+                                  <p>Initially, I wanted to purchase basic hosting to upload my resume and simply have a quick way to present myself. However, upon further consideration, I realized that this could turn into a real project. I plan to use modern technologies and practices extensively for my website. While many of the features might seem excessive, I'm doing this with the goal of gaining practical knowledge. So, let's get started:</p>
+
+                                  <ol>
+                                      <li>Created an S3 bucket, made it public, configured Bucket policy, and manually uploaded my website.</li>
+                                      <li>Purchased the domain guidia.tech from an external service (not AWS).</li>
+                                      <li>Added a new hosted zone in AWS Route 53, obtained the NS servers, and set them up with my DNS provider.</li>
+                                      <li>Added an SSL certificate to my domain. To do this, I obtained it from AWS Certificate Manager. Unfortunately, or fortunately, you can't directly link the certificate, so I had to set it up through CloudFront. I created a new distribution, selected the appropriate S3 bucket, specified the CNAME names for the main domain, enabled HTTP to HTTPS redirect, and selected the certificate.</li>
+                                      <li>Decided to add some CI/CD to my project. I used Git - AWS CodePipeline - AWS S3 Bucket combination. Now, when I upload new code to Git, it automatically deploys to the S3 bucket.</li>
+                                      <li>CDNs are great, but when your only index.html doesn't update for several days, and you want to make changes right now because, according to Murphy's law, your potential employer is reviewing your modest portfolio right now and can't see the cool changes you've made to this project, you decide to tweak things. I automated the cooperation between the S3 bucket and CloudFront, so every time new code is deployed from GitHub, it triggers automatic invalidation of all changed files. To do this, I used AWS Lambda services.</li>
+                                  </ol>
+                              
+                                  <p>This is a hands-on learning experience, and I'm excited to see how it evolves. Stay tuned for more updates!</p>
+                              
+                                 </div>
                         </div>                 
 
                     </div>
