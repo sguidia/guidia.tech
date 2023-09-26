@@ -159,40 +159,15 @@
                                   <span>2019</span>
                              </div>
                              <div class="timeline-info">
-                                  <h3><span>Project Manager</span><small>Best Studio</small></h3>
-                                  <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
+                                  <h3><span>Website Prortfolio</span></h3>
+                                  <p>изначально я хотел купить простенький хостинг разметсить там свое резюме и собственно все, чтоб можно было максимально быстро себя презентовать, но подумав еще раз я понял что из этого может получится настоящий проект, я буду максимально подробно использовать соверменные технологии и практики для своего сайта, многие функции будут избыточны, но все это я буду делать с цель получения реальных практических знаний, итак начнем:
+                                    1. создал s3 bucket, сделал его общедоустпным, настроил Bucket policy, закачал свой вэб-сайт вручную
+                                    2. купил домен guidia.tech на сторонем сервисе (не AWS)
+                                    3. добавил новую hosted zone в AWS Route53, получил ns сервера и прописал их у своего ДНС провайдера
+                                    4. добавить SSL сертификат к своему домену, для этого получил его в AWS Certificate Manager, к сожалению, а точнее к счастью, напрямую привязать сертификат нельзя, поэтому пришлось настраивать через CloudFront, для этого сделал новое distribution, выбрал соответствующий s3 bucket, указал имена cname  для основного домена, выбрал редирект с http на https, выбрал сам сертификат.
+                                    5. решил добавить немнго CI/CD в мой проект, для этого использовал связку Git - AWS CodePipeline - AWS S3 Bucket. Теперь при заливки в гит новой версии код деплоится на S3 бакет автоматически.</p>
                              </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2018</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>UX Designer</span><small>Digital Ace</small></h3>
-                                <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2016</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>UI Freelancer</h3>
-                                <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2014</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Junior Designer<small>Crafted Co.</small></h3>
-                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
-                            </div>
-                        </div>
+                        </div>                 
 
                     </div>
                 </div>
