@@ -25,8 +25,14 @@ body {
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
+ol {
+  color: #5b5b5b;
+  font-size: 18px;
+}
+
 
 ul {
+  font-family: "Maven Pro", sans-serif;
   margin: 0;
   padding: 0;
 }
