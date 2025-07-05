@@ -58,6 +58,9 @@ params:
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
 
   features:
+
+    darkMode:
+      enable: true
     # Enable portfolio section
     portfolio:
       enable: true
