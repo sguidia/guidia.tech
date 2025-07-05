@@ -40,7 +40,7 @@ socialLinks:
 # your resume. this file path should be relative to you "static" directory
 resourceLinks:
 - title: "My Resume"
-  url: "/cv_guidia_sv.docx"
+  url: "/files/cv_guidia_sv.docx"
 
 
 # Certifications and badges
