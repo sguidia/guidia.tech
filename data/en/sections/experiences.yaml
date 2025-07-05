@@ -11,6 +11,23 @@ section:
 # Your experiences 
 experiences:
 - company:
+    name: Ecolab Inc
+    url: "https://www.ecolab.com/"
+    location: Chicago, IL
+    logo: /images/experiences/ecolab.svg
+    darkLogo: /images/experiences/ecolab.png
+    overview: Ecolab is a global leader in water, hygiene, and energy technologies and services, operating in more than 170 countries. The company delivers solutions that help ensure clean, safe, and efficient operations across industries such as healthcare, food processing, hospitality, and manufacturing. Ecolab is focused on sustainability, automation, and digital innovation, leveraging data-driven platforms to optimize industrial performance and environmental impact.
+  positions:
+  - designation: Platform Engineer
+    start: Jul 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+
+    # responsibilities:
+    # - Achieved 50% cost
+
+- company:
     name: ClientBase LLC
     url: "https://www.clientbase.us/"
     location: Atlanta, GA
@@ -20,6 +37,7 @@ experiences:
   positions:
   - designation: Senior DevOps Engineer
     start: Aug 2022
+    end: Jul 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -71,7 +89,7 @@ experiences:
 - company:
     name: Unilab LLC
     url: "https://unilab.su/"
-    location: Moscow, Russian
+    location: Vladivostok, Russian
     logo: /images/experiences/unilab.png
     darkLogo: /images/experiences/unilab.png
     overview: Unilab operates a regional clinical-diagnostic laboratory network delivering 2,500+ medical tests with automated digital workflows, fast results, online bookings, and corporate health solutions.
@@ -96,7 +114,7 @@ experiences:
 - company:
     name: Far Eastern Federal University
     url: "https://www.dvfu.ru/en/"
-    location: Moscow, Russian
+    location: Vladivostok, Russian
     logo: /images/experiences/fefu.png
     darkLogo: /images/experiences/fefu.png
     overview: Unilab operates a regional clinical-diagnostic laboratory network delivering 2,500+ medical tests with automated digital workflows, fast results, online bookings, and corporate health solutions.
