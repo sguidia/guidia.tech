@@ -1,0 +1,23 @@
+# Hugo output
+/public/
+/resources/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Node/npm
+/node_modules/
+package-lock.json
+
+# Hugo themes (если не используешь submodule)
+themes/
+
+# Hugo Modules cache (если используешь go module proxy локально)
+hugo_cache/
+
+# OS/system junk
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/

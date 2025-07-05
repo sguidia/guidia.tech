@@ -1,0 +1,129 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+
+# Your experiences 
+experiences:
+- company:
+    name: ClientBase LLC
+    url: "https://www.clientbase.us/"
+    location: Atlanta, GA
+    logo: /images/experiences/clientbase.svg
+    darkLogo: /images/experiences/clientbase-dark.png
+    overview: ClientBase is a SaaS platform for building and managing customer-facing business applications. It allows teams to create internal tools, CRMs, and dashboards without writing code, accelerating development and reducing time to market.
+  positions:
+  - designation: Senior DevOps Engineer
+    start: Aug 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+
+    responsibilities:
+    - Achieved 50% cost reduction by architecting 100% resource utilization with Karpenter.
+    - Designed end-to-end DevOps architecture to support scalable, secure, and HA business systems.
+    - Mentored engineers on GitOps and CI-CD practices, improving team velocity and autonomy.
+    - Automated end-to-end CI/CD pipelines, boosting engineering efficiency by 45% and system stability by 70%.
+    - Engineered Argo CD app delivery using GitOps, reducing manual ops and accelerating delivery.
+    - Built resilient Kubernetes cluster (EKS), enabling production-grade deployments with zero downtime rollout.
+    - Replaced Jenkins with Argo Workflows, enabling fully declarative pipelines, with GitOps integration.
+    - Built IaC-driven DR strategy (Terraform + Helm), cutting MTTR by 90% and ensuring 99.9% uptime.
+    - Implemented Argo Events to eliminate manual triggers and enable autonomous, reactive pipelines.
+    - Rolled out PostgreSQL HA with PgBouncer, pgBackRest backups, improving reliability by 80%.
+    - Secured Kubernetes workloads using DevSecOps tools Trivy, kube-bench, AppArmor, Seccomp, Falco.
+    - Enabled SSO via Dex – unified access, increasing security and access manageability by 100%.
+    - Implemented Argo CD with Kustomize, streamlining delivery across unlimited environments.
+    - Built Hashicorp Vault-driven secrets platform, cutting secret leaks to zero and securing delivery end-to-end.
+    - Increased error visibility by 65% by deploying Sentry with alerts and release tracking.
+    - Delivered observability stack with Prometheus and Grafana, preventing user-impacting issues.
+    - Documented platform to streamline onboarding and cross-functional alignment.
+
+- company:
+    name: Vladlink LLC
+    url: "https://www.vladlink.ru"
+    location: Moscow, Russian
+    logo: /images/experiences/vladlink.png
+    darkLogo: /images/experiences/vladlink.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Vladlink is a regional telecommunications provider based in Russia, offering high-speed internet, digital TV, and phone services to residential and business customers. The company specializes in fiber-optic infrastructure and delivering reliable connectivity across the Russian Far East.
+  positions:
+  - designation: DevOps Engineer
+    start: Dec 2020
+    end: Apr 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Developed hybrid CI-CD pipelines (cloud & on-prem), accelerating new release delivery by 80%.
+    - Integrated linting, functional tests, and performance tests to ensure code quality and efficiency, reducing bugs in production by 70%, accelerating development cycles by 40%, and improving overall system stability.
+    - Created and managed Kubernetes resources to decompose monolithic applications into microservices, reducing deployment time by 60%, improving system scalability by 3x, and enhancing developer productivity by 50% through streamlined workflows.
+    - Designed and implemented a Kubernetes-based container orchestration system using Terraform, improving deployment efficiency by 60% and reducing provisioning time by 75%.
+    - Developed reusable Terraform modules, improving code readability and accelerating future development by 25% through enhanced reusability and maintainability.
+    - Implemented multi-stage builds in Docker images for microservices deployment in Kubernetes, reducing image size by 40% and accelerating build times by 50% while improving security and maintainability.
+    - Architected a Hashicorp Vault-based secrets platform that eliminated all secret exposure and enforced airtight delivery.
+    - Deployed containerized applications using Helm Charts in Kubernetes, introducing version control, improving maintainability, and reducing configuration complexity by 35%.
+
+- company:
+    name: Unilab LLC
+    url: "https://unilab.su/"
+    location: Moscow, Russian
+    logo: /images/experiences/unilab.png
+    darkLogo: /images/experiences/unilab.png
+    overview: Unilab operates a regional clinical-diagnostic laboratory network delivering 2,500+ medical tests with automated digital workflows, fast results, online bookings, and corporate health solutions.
+  positions:
+  - designation: Senior System Administrator
+    start: Jul 2016
+    end: Dec 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Led a company-wide infrastructure migration from Windows to Linux, reducing licensing costs by 80% and significantly improving system stability.
+    - Optimized server resource allocation, decreasing hardware utilization by 40% while increasing overall performance and reliability.
+    - Initiated the transition to containerization with Docker and Kubernetes, reducing infrastructure expenses by 50% and improving resource efficiency.
+    - Migrated critical business applications from Windows-based environments to Linux and containerized key workloads, reducing operational costs by 70%, increasing deployment speed, and improving scalability.
+    - Implemented an advanced backup and disaster recovery strategy, ensuring 99.9% uptime and reducing potential data loss risks.
+    - Optimized MS SQL and 1C database performance by migrating to PostgreSQL, cutting database-related costs by 100% and improving query execution speed.
+    - Enhanced network security and efficiency by replacing Windows-based DHCP, DNS solutions with Linux-based alternatives, leading to 30% faster response times and improved fault tolerance.
+    - Replaced proprietary monitoring tools with an open-source Zabbix setup, providing real-time analytics and reducing incident resolution time by 70%.
+
+
+- company:
+    name: Far Eastern Federal University
+    url: "https://www.dvfu.ru/en/"
+    location: Moscow, Russian
+    logo: /images/experiences/fefu.png
+    darkLogo: /images/experiences/fefu.png
+    overview: Unilab operates a regional clinical-diagnostic laboratory network delivering 2,500+ medical tests with automated digital workflows, fast results, online bookings, and corporate health solutions.
+  positions:
+  - designation: Lead Engineer
+    start: Oct 2013
+    end: Jul 2016
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Maintained and supported Tier II data center, including high-availability infrastructure and physical security systems.
+    - Administered and integrated enterprise systems - Genesys Call Center, SAP-based Medical Information System, Laboratory System (1C:LIS), PACS (medical imaging), Telemedicine platform, and physical access control via PERCO.
+    - Delivered building-wide security management, including electronic lock control, CCTV, and smart card access integration.
+    - Managed internal TV broadcasting infrastructure and medical center’s public website.
+    - Led system upgrades and troubleshooting, minimizing downtime and optimizing user experience across 24/7 operations.
+
+  - designation: IT Engineer
+    start: Nov 2010
+    end: Oct 2013
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Provided L1/L2 support for enterprise users across software, hardware, and telephony systems.
+    - Supported and maintained IT infrastructure, including printers, AV systems, access control, and call center platforms.
+    - Delivered training materials and onboarding documentation, streamlining employee ramp-up.
+    - Built internal knowledge base and standardized IT workflows, reducing ticket response time.
+    - Assisted remote employees and resolved cross-site connectivity and authentication issues.
+

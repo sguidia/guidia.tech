@@ -1,0 +1,456 @@
+section:
+  name: Skills
+  id: projects  # оставь "projects", чтобы layout Toha применился
+  enable: true
+  showOnNavbar: true
+  weight: 2
+  defaultFilter: "ci-cd-and-automation"  # 👈 вот это добавь
+
+buttons:
+  - name: CI/CD
+    filter: "ci-cd-and-automation"
+  - name: Build & Artifact Management
+    filter: "build-artifact-management"
+  - name: Containerization and Orchestration
+    filter: "containerization-and-orchestration"
+  - name: Networking
+    filter: "networking"
+  - name: Monitoring and Observability
+    filter: "monitoring-and-observability"
+  - name: Cloud Technologies and Services
+    filter: "cloud-technologies-and-services"
+  - name: Virtualization and Bare Metal
+    filter: "virtualization-and-bare-metal"
+  - name: Security
+    filter: "security"
+  - name: Version Control Systems
+    filter: "version-control-systems"
+  - name: Relational Databases
+    filter: "relational-databases"
+  - name: Non-relational Databases
+    filter: "non-relational-databases"
+  - name: Programming and Scripting
+    filter: "programming-and-scripting"
+  - name: Operating Systems
+    filter: "operating-systems"
+
+projects:
+  - name: Argo CD
+    summary: Argo CD as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Kustomize
+    summary: Kustomize as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Argo Workflows
+    summary: Argo Workflows as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Argo Events
+    summary: Argo Events as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Jenkins
+    summary: Jenkins as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: GitHub Actions
+    summary: GitHub Actions as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Helm
+    summary: Helm as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Terraform Cloud
+    summary: Terraform Cloud as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Terraform Workspaces
+    summary: Terraform Workspaces as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Ansible
+    summary: Ansible as part of CI/CD and automation stack.
+    tags: ["ci-cd-and-automation"]
+
+  - name: Kaniko
+    summary: Kaniko for container image builds.
+    tags: ["build-artifact-management"]
+
+  - name: Buildah
+    summary: Buildah for rootless image builds.
+    tags: ["build-artifact-management"]
+
+  - name: ECR
+    summary: Amazon Elastic Container Registry.
+    tags: ["build-artifact-management"]
+
+  - name: Docker Hub
+    summary: Public and private image registry.
+    tags: ["build-artifact-management"]
+
+  - name: Kubernetes
+    summary: Production-grade container orchestration platform.
+    tags: ["containerization-and-orchestration"]
+
+  - name: Docker
+    summary: Containerization and image management.
+    tags: ["containerization-and-orchestration"]
+
+  - name: Docker Swarm
+    summary: Lightweight container orchestrator.
+    tags: ["containerization-and-orchestration"]
+
+  - name: ExternalDNS
+    summary: Dynamic DNS record management in Kubernetes.
+    tags: ["networking"]
+
+  - name: AWS ALB
+    summary: AWS Application Load Balancer.
+    tags: ["networking"]
+
+  - name: AWS NLB
+    summary: AWS Network Load Balancer.
+    tags: ["networking"]
+
+  - name: Nginx
+    summary: Reverse proxy and web server.
+    tags: ["networking"]
+
+  - name: Traefik
+    summary: Dynamic edge router and ingress controller.
+    tags: ["networking"]
+
+  - name: Cert-manager
+    summary: Automatic certificate management.
+    tags: ["networking"]
+
+  - name: Let's Encrypt
+    summary: Free automated TLS certificates.
+    tags: ["networking"]
+
+  - name: Route53
+    summary: AWS-managed DNS service.
+    tags: ["networking"]
+
+  - name: CloudFront
+    summary: AWS content delivery network (CDN).
+    tags: ["networking"]
+
+  - name: Cloudflare
+    summary: CDN and DNS with security features.
+    tags: ["networking"]
+
+  - name: WireGuard
+    summary: Fast and secure VPN protocol.
+    tags: ["networking"]
+
+  - name: AWS VPC
+    summary: Virtual private cloud networking on AWS.
+    tags: ["networking"]
+
+  - name: Multi-AZ
+    summary: High availability across multiple zones.
+    tags: ["networking"]
+
+  - name: NAT Gateway
+    summary: Outbound internet access in AWS VPC.
+    tags: ["networking"]
+
+  - name: TCP/IP
+    summary: Core networking protocol suite.
+    tags: ["networking"]
+
+  - name: Prometheus
+    summary: Prometheus for metrics collection and alerting.
+    tags: ["monitoring-and-observability"]
+
+  - name: Grafana
+    summary: Grafana for dashboarding and visualizing metrics.
+    tags: ["monitoring-and-observability"]
+
+  - name: Sentry
+    summary: Sentry for error tracking and performance monitoring.
+    tags: ["monitoring-and-observability"]
+
+  - name: CloudWatch Logs
+    summary: AWS CloudWatch Logs for centralized logging.
+    tags: ["monitoring-and-observability"]
+
+  - name: CloudWatch Metrics
+    summary: AWS CloudWatch for infrastructure monitoring.
+    tags: ["monitoring-and-observability"]
+
+  - name: Loki
+    summary: Loki for scalable log aggregation.
+    tags: ["monitoring-and-observability"]
+
+  - name: Promtail
+    summary: Promtail for collecting logs for Loki.
+    tags: ["monitoring-and-observability"]
+
+  - name: LokiStack
+    summary: LokiStack for enterprise-grade log storage and processing.
+    tags: ["monitoring-and-observability"]
+
+  - name: AWS
+    summary: Amazon Web Services for cloud infrastructure and services.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: Karpenter
+    summary: Karpenter for Kubernetes autoscaling in AWS.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: EKS
+    summary: Elastic Kubernetes Service by AWS.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: Fargate
+    summary: AWS serverless compute engine for containers.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: EC2
+    summary: AWS Elastic Compute Cloud virtual machines.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: Lambda
+    summary: AWS serverless functions for event-driven processing.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: Elastic Beanstalk
+    summary: AWS platform for easy deployment and scaling of web apps.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: S3
+    summary: Scalable object storage in AWS.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: DynamoDB
+    summary: Managed NoSQL database by AWS.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: Managed DB
+    summary: AWS managed database services like RDS and Aurora.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: ALB
+    summary: Application Load Balancer for routing HTTP(S) traffic.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: ASG
+    summary: Auto Scaling Groups for dynamic scaling of EC2 instances.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: EBS
+    summary: Elastic Block Store for EC2 storage.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: EFS
+    summary: Elastic File System for shared file storage in AWS.
+    tags: ["cloud-technologies-and-services"]
+
+  - name: Proxmox VE
+    summary: Proxmox VE for virtualization and container hosting.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: KVM
+    summary: Kernel-based Virtual Machine hypervisor.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: QEMU
+    summary: Emulator used with KVM for hardware virtualization.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: LXC
+    summary: Lightweight container virtualization.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: Ceph
+    summary: Distributed storage backend integrated with Proxmox.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: Harvester
+    summary: Rancher's HCI solution based on Kubernetes and KubeVirt.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: KubeVirt
+    summary: Virtual machines on top of Kubernetes.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: Rancher
+    summary: Kubernetes management platform.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: RKE2
+    summary: Secure Kubernetes distribution by Rancher.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: Virt
+    summary: General virtualization infrastructure components.
+    tags: ["virtualization-and-bare-metal"]
+
+  - name: HashiCorp Vault
+    summary: Secure secret management and encryption service.
+    tags: ["security"]
+
+  - name: External Secrets Operator
+    summary: Kubernetes integration with secret management systems.
+    tags: ["security"]
+
+  - name: SSO
+    summary: Single Sign-On implementation support.
+    tags: ["security"]
+
+  - name: OIDC
+    summary: OpenID Connect for identity federation.
+    tags: ["security"]
+
+  - name: Dex
+    summary: Identity provider for Kubernetes.
+    tags: ["security"]
+
+  - name: Google SSO
+    summary: Google-based authentication integration.
+    tags: ["security"]
+
+  - name: IRSA
+    summary: IAM Roles for Service Accounts in AWS.
+    tags: ["security"]
+
+  - name: Pod Identity
+    summary: Secure pod-to-AWS IAM authorization.
+    tags: ["security"]
+
+  - name: Cilium
+    summary: CNI with network security and observability.
+    tags: ["security"]
+
+  - name: Seccomp
+    summary: Linux syscall filtering for containers.
+    tags: ["security"]
+
+  - name: AppArmor
+    summary: Mandatory access control for Linux workloads.
+    tags: ["security"]
+
+  - name: Pod Security Standards
+    summary: Kubernetes pod security enforcement.
+    tags: ["security"]
+
+  - name: Trivy
+    summary: Vulnerability scanner for containers and IaC.
+    tags: ["security"]
+
+  - name: kube-bench
+    summary: CIS Benchmark validation for Kubernetes.
+    tags: ["security"]
+
+  - name: Falco
+    summary: Runtime security for containers.
+    tags: ["security"]
+
+  - name: gVisor
+    summary: Sandbox container runtime.
+    tags: ["security"]
+
+  - name: RBAC
+    summary: Role-Based Access Control for Kubernetes.
+    tags: ["security"]
+
+  - name: IAM
+    summary: Identity and Access Management for AWS.
+    tags: ["security"]
+
+  - name: ACL
+    summary: Access Control List policies.
+    tags: ["security"]
+
+  - name: AWS ACM
+    summary: AWS Certificate Manager for TLS.
+    tags: ["security"]
+
+  - name: Security Groups
+    summary: AWS network-level firewall.
+    tags: ["security"]
+
+  - name: GitHub
+    summary: Source control and DevOps platform.
+    tags: ["version-control-systems"]
+
+  - name: GitLab
+    summary: Version control and CI/CD tool.
+    tags: ["version-control-systems"]
+
+  - name: CodeCommit
+    summary: AWS-hosted private Git repositories.
+    tags: ["version-control-systems"]
+
+  - name: Bitbucket
+    summary: Git repository hosting by Atlassian.
+    tags: ["version-control-systems"]
+
+  - name: PostgreSQL
+    summary: Advanced open-source relational database.
+    tags: ["relational-databases"]
+
+  - name: MySQL
+    summary: Widely-used open-source RDBMS.
+    tags: ["relational-databases"]
+
+  - name: MariaDB
+    summary: MySQL-compatible RDBMS fork.
+    tags: ["relational-databases"]
+
+  - name: Amazon RDS
+    summary: AWS-managed relational database service.
+    tags: ["relational-databases"]
+
+  - name: Aurora
+    summary: High-performance AWS RDS engine.
+    tags: ["relational-databases"]
+
+  - name: DynamoDB
+    summary: AWS-managed NoSQL key-value and document DB.
+    tags: ["non-relational-databases"]
+
+  - name: MongoDB
+    summary: Document-oriented NoSQL database.
+    tags: ["non-relational-databases"]
+
+  - name: Redis
+    summary: In-memory data structure store.
+    tags: ["non-relational-databases"]
+
+  - name: Elasticsearch
+    summary: Search and analytics engine for JSON documents.
+    tags: ["non-relational-databases"]
+
+  - name: etcd
+    summary: Distributed key-value store used by Kubernetes.
+    tags: ["non-relational-databases"]
+
+  - name: Prometheus TSDB
+    summary: Time-series database built into Prometheus.
+    tags: ["non-relational-databases"]
+
+  - name: YAML
+    summary: Declarative configuration language for infrastructure and apps.
+    tags: ["programming-and-scripting"]
+
+  - name: Bash
+    summary: Shell scripting for automation and system tasks.
+    tags: ["programming-and-scripting"]
+
+  - name: Python
+    summary: General-purpose scripting and automation language.
+    tags: ["programming-and-scripting"]
+
+  - name: Linux
+    summary: Primary OS for development, servers, and Kubernetes.
+    tags: ["operating-systems"]
+
+  - name: Windows
+    summary: Desktop and server OS used for hybrid cloud operations.
+    tags: ["operating-systems"]

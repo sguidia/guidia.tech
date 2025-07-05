@@ -1,0 +1,19 @@
+# some information about you
+name: "Sergei Guidia"
+nickname: "Sergei"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/guidia.png"  # без /static в пути
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "sv.guidia@gmail.com"
+  phone: "+1312.262.8595"
+  github: sguidia
+  linkedin: guidia
+
+# some summary about what you do
+summary:
+  - I am a Devops
+  - I love automate
+  - I work on open-source projects
+  - I love to work with some fun projects

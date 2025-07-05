@@ -1,0 +1,103 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+
+  
+# your designation
+designation: Platform Engineer
+# your company information
+company:
+  name: Ecolab
+  url: "https://www.ecolab.com"
+
+# Short bio
+summary: >
+  Senior DevOps Engineer with over 5 years of hands-on experience designing, implementing, and scaling secure, highly available cloud-native infrastructure on AWS. Expert in Kubernetes (EKS), Infrastructure-as-Code (Terraform, Helm), and GitOps practices using Argo CD. Proven ability to reduce cloud costs by up to 50% through strategic optimization and automation. Delivered robust CI/CD pipelines supporting multiple environments, significantly improving developer productivity and system reliability. Adept at mentoring engineers, driving DevSecOps and observability adoption, and aligning infrastructure strategy with business goals.
+
+# Social icons
+socialLinks:
+  - name: "Email"
+    icon: "fas fa-envelope"
+    url: "sv.guidia@gmail.com"
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/sguidia"
+  - name: "LinkedIn"
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/guidia/"
+  - name: "LinkedIn"
+    icon: "fab fa-facebook"
+    url: "https://www.facebook.com/sv.guidia/"
+
+
+
+# your resume. this file path should be relative to you "static" directory
+resourceLinks:
+- title: "My Resume"
+  url: "/cv_guidia_sv.docx"
+
+
+# Certifications and badges
+badges:
+  - type: certification
+    name: Certified Linux Administrator (LPIC-1) Linux Professional Institute (LPI)
+    url: "https://cs.lpi.org/caf/Xamman/certification/verify/LPI000575464/su9dbtnbg3"
+    badge: "https://images.credly.com/images/82e8df94-e88e-4f3b-b247-8ca5f8a5b6d4/blob"
+
+  - type: certification
+    name: Certified Kubernetes Administrator (CKA)
+    url: "https://www.credly.com/earner/earned/badge/b9c072c9-a6a1-4242-a4d5-45fff8fcae35"
+    badge: "https://images.credly.com/size/340x340/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
+
+  - type: certification
+    name: Certified Kubernetes Application Developer (CKAD)
+    url: "https://www.credly.com/earner/earned/badge/df2c1cd1-e9a2-4366-9d60-1d46d629c40e"
+    badge: "https://images.credly.com/size/340x340/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+
+  - type: certification
+    name: AWS Certified Solutions Architect – Associate
+    url: "https://www.credly.com/earner/earned/badge/8da3d0f1-4b91-43d2-bced-fa5259dfc608"
+    badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+
+  - type: certification
+    name: AWS Certified Cloud Practitioner
+    url: "https://www.credly.com/earner/earned/badge/71b060cf-d25e-4972-b888-f42201597b4a"
+    badge: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+
+  - type: certification
+    name: AWS Knowledge - Compute
+    url: "https://www.credly.com/earner/earned/badge/15f7bd43-178b-4833-860f-9b3141000a35"
+    badge: "https://images.credly.com/size/340x340/images/eba18772-5ecf-471b-b8af-dda79815b544/image.png"
+
+
+  - type: certification
+    name: AWS Cloud Quest - Solutions Architect
+    url: "https://www.credly.com/earner/earned/badge/ade1f0d0-8a5d-4961-b060-edd30614c067"
+    badge: "https://images.credly.com/size/340x340/images/9e9e7ef7-384f-4636-8743-1b89a68fb46b/image.png"
+
+  - type: certification
+    name: AWS Cloud Quest - Cloud Practitioner
+    url: "https://www.credly.com/earner/earned/badge/a9af954a-e8c4-49c0-bca2-a3e9d374bb3e"
+    badge: "https://images.credly.com/size/340x340/images/2784d0d8-327c-406f-971e-9f0e15097003/image.png"
+
+
+  - type: soft-skill-indicator
+    name: Leadership
+    percentage: 85
+    color: blue
+
+  - type: soft-skill-indicator
+    name: Team Work
+    percentage: 90
+    color: yellow
+
+  - type: soft-skill-indicator
+    name: Hard Working
+    percentage: 95
+    color: orange
