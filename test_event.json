@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "username": "YOUR_EMPLOYEE_NUMBER",
+      "password": "YOUR_PASSWORD",
+      "email_to": "recipient@example.com",
+      "email_from": "your_gmail@gmail.com",
+      "email_pass": "your_gmail_app_password"
+    }
+  ]
+}
