@@ -3,7 +3,7 @@ baseURL: https://www.guidia.tech
 languageCode: en-us
 title: "Guidia.Tech Blog"
 
-# Use Hugo modules to add theme
+# Use Hugo modules to add theme 
 
 module:
   imports:
